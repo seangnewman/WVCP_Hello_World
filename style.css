@@ -1,0 +1,39 @@
+ 
+body{
+  color:purple;
+  background-color: whitesmoke;
+}
+h1{
+  color : salmon;
+}
+
+.bob{
+  
+  font-size:2em;
+}
+
+.imgHolder{
+  display: inline-block;
+
+}
+.item-fade{
+  vertical-align: top;
+  transition: opacity 0.3s;
+  -webkit-transition: opacity 0.3s;
+  opacity: 1;
+}
+.item-fade:hover{
+  opacity: 0.2;
+}
+
+img{
+  width:200px;
+  height: auto;
+  border-radius: 25%;
+  
+}
+
+.pizza{
+  border:10px dotted red;
+
+}
